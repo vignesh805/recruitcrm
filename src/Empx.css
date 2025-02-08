@@ -1,0 +1,41 @@
+.formem
+{
+ width: 100%;
+
+}
+  
+.curtitle
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.exper
+{
+ display: flex;
+ justify-content: space-around;
+}
+
+.salcur
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cursalex
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.empnot
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.avail
+{
+  width: 32%;
+  margin-left: 55px;
+}

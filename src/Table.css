@@ -1,0 +1,130 @@
+.tabcans
+{
+    display: flex;
+
+}
+
+.Table
+{
+    padding:100px 20px  80px;
+
+
+}
+
+.search
+{
+   padding: 22px;
+   display: flex;
+
+
+
+}
+
+.title{
+text-align: left;
+width: 60%;
+}
+
+.addcand
+{
+    padding: 25px 10px;
+    
+
+}
+
+.addbut
+{
+    background-color: #47BB7F;
+}
+
+
+th{
+    padding: 20px;
+    
+}
+
+td{
+    text-align: center;
+}
+
+
+
+header
+{
+    background-color: aliceblue;
+padding: 10px;
+position: fixed;
+width: 100%;
+display: flex;
+
+
+}
+
+.footers {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+
+/* Lower z-index than the sidebar */
+}
+
+
+
+
+
+
+.container {
+  font-family: Arial, sans-serif;
+
+}
+
+.candidate-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.candidate-table th,
+.candidate-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.candidate-table th {
+  background-color: #f4f4f4;
+}
+
+.clickable {
+
+  cursor: pointer;
+
+}
+
+.clickable:hover {
+  color: darkblue;
+}
+
+.candidate-details {
+  padding: 40px;
+
+  background-color: #fafafa;
+  border-radius: 8px;
+
+}
+
+.back-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

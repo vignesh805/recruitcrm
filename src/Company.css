@@ -1,0 +1,71 @@
+.tabcans
+{
+    display: flex;
+
+}
+
+.Table
+{
+    padding:120px 20px  80px ;
+
+
+}
+
+.search
+{
+   padding: 22px;
+   display: flex;
+
+
+
+}
+
+.title{
+text-align: left;
+width: 60%;
+}
+
+.addcand
+{
+    padding: 25px 10px;
+    
+
+}
+
+.addbut
+{
+    background-color: #47BB7F;
+}
+
+
+th{
+    padding: 20px;
+    
+}
+
+td{
+    text-align: center;
+}
+
+
+
+header
+{
+    background-color: aliceblue;
+padding: 10px;
+position: fixed;
+width: 100%;
+display: flex;
+
+
+}
+
+.footers {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+
+/* Lower z-index than the sidebar */
+}

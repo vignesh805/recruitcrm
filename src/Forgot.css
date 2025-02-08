@@ -1,0 +1,64 @@
+.forgotform
+{
+  background-color:white;
+  padding: 50px 100px ;
+  margin:5px 20px auto 350px;
+  
+}
+.forgotform input
+{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 100%;
+}
+.forgotform input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+
+.forgotingrp
+{
+  padding: 10px;
+}
+
+h3
+{
+text-align:center;
+margin-bottom: 5px;
+}
+
+.forgotbutton
+{
+  width: 100%;
+  margin:auto 10px;
+  background-color:#1574dc;
+  border-radius: 2.8px;
+  outline: none;
+  color: white;
+}
+.forgotbutton:focus{
+  outline: none;
+}
+
+
+.goo
+{
+  width: 100%;
+  margin:auto 10px;
+  border-radius: 2.8px;
+  outline: none;
+  color: white;
+}
+.goo:focus
+{
+  border: none;
+  outline: none;
+}
+
+.forgoterror
+{
+  font-size: 12px;
+  color: red;
+}
+

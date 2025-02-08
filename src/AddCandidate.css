@@ -1,0 +1,169 @@
+.personalform
+{
+display: flex;
+flex-direction: column;
+width: 95%;
+}
+
+
+
+
+.personalcilo
+{
+    display: flex;
+justify-content: space-between;
+  
+}
+
+.personalingr4
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.personalingr5
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+}
+
+.personalstco
+{
+    display: flex;
+   justify-content: space-between;
+}
+
+.personalingr6
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personalingr7
+{
+ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  
+}
+
+.education
+{
+    width: 100%;
+}
+
+.work
+{
+    width: 100%;
+
+}
+
+.text
+{
+    width: 100%;
+    height: 70px;
+  
+}
+
+
+
+.wholr
+{
+  align-items: center; 
+    background-color: #ccc;
+    border-radius: 30px;
+    height: 20px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 1px;
+margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.leftro
+{
+  background-color: aliceblue;
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+margin-top: 2px;
+margin-left: 5px;
+margin-right: 2px;
+transition: 0.4s;
+}
+
+.rightro
+{
+  background-color:white;
+  height: 16px;
+  width: 16px;
+  border-radius: 20px;
+margin-top: 2px;
+margin-left: 20px;
+margin-right: 25px;
+margin-bottom: 15px;
+transition: 0.4s;
+}
+
+.wholr.actives
+{
+  background-color:	#088F8F;
+  transition: 1s;
+}
+
+
+
+.perrelgen
+{
+  display: flex;
+justify-content: space-between;
+}
+
+
+.pergender
+{
+    margin-top: 20px;
+width: 43%;  
+}
+
+
+
+.relo
+{
+    margin-top: 20px;
+
+}
+
+.candate 
+{
+    width: 43%;
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    text-align: center;
+    border: 1px dashed #ccc;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left:20px;
+  }
+  
+  .upload-label {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .upload-icon {
+    font-size: 2rem;
+    color: #555;
+  }
+  

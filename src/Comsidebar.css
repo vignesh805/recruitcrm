@@ -1,0 +1,93 @@
+/* SideModal.css */
+.side-modal {
+    position: fixed;
+    top: 0;
+    right: -650px; /* Off-screen by default */
+    width: 650px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+  /* Ensure it appears above the footer */
+  }
+    
+  .candsid
+  {
+    margin-top: 0px;
+  }
+  
+  
+    .side-modal.open {
+      right: 0; /* Slide in */
+    }
+    
+    .close-buttons {
+      position: absolute;
+      top: 40px;
+      left: 580px;
+      border: 1px solid #ccc;
+      color:black;
+      cursor: pointer;
+      padding-top: 3px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius:20px;
+    }
+    
+    .modal-content {
+      padding: 20px;
+    }
+    
+  
+    .form-containers {
+   
+      margin: 0 auto;
+      padding: 20px;
+    
+  
+      border-radius: 8px;
+      background-color: white;
+    }
+    
+    .section {
+      border-bottom: 1px solid #ddd;
+      border-top: 1px solid #ddd;
+      padding: 15px 0;
+      cursor: pointer;
+    }
+    
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+    
+    .section-content {
+      padding: 10px 0;
+    }
+    
+    input, textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    .fullcandbut {
+      padding: 10px 20px;
+      background-color: #47BB7F;
+  margin-top: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .soclink
+    {
+      width: 90%;
+      margin-left: 20px;
+    }

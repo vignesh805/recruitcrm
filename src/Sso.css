@@ -1,0 +1,67 @@
+.ssoform
+{
+  background-color:white;
+  padding: 50px 100px ;
+  margin:5px 20px auto 350px;
+  
+}
+.ssoform input
+{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 100%;
+}
+.ssoform input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+
+.ssoingrp
+{
+  padding: 10px;
+}
+
+h3
+{
+text-align:center;
+margin-bottom: 5px;
+}
+
+.ssobutton
+{
+  width: 100%;
+  margin:auto 10px;
+  background-color:#1574dc;
+  border-radius: 2.8px;
+  outline: none;
+  color: white;
+}
+.ssobutton:focus{
+  outline: none;
+}
+
+
+.ssogoo
+{
+  width: 100%;
+  margin:auto 10px;
+  border-radius: 2.8px;
+  outline: none;
+  color: white;
+}
+.ssogoo:focus
+{
+  border: none;
+  outline: none;
+}
+
+
+
+
+.ssoerror
+{
+  font-size: 12px;
+  color: red;
+}
+
